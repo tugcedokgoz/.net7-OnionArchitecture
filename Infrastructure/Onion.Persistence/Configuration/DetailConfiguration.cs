@@ -20,7 +20,7 @@ namespace Onion.Persistence.Configuration
 				Id = 1,
 				Title = faker.Lorem.Sentence(1),
 				Description = faker.Lorem.Sentence(5),
-				CatgeoryId = 1,
+				CategoryId = 1,	
 				CreatedDate = DateTime.Now,
 				IsDeleted = false,
 			};
@@ -29,7 +29,7 @@ namespace Onion.Persistence.Configuration
 				Id = 2,
 				Title = faker.Lorem.Sentence(2),
 				Description = faker.Lorem.Sentence(5),
-				CatgeoryId = 3,
+				CategoryId = 3,
 				CreatedDate = DateTime.Now,
 				IsDeleted = true,
 			};
@@ -38,7 +38,7 @@ namespace Onion.Persistence.Configuration
 				Id = 3,
 				Title = faker.Lorem.Sentence(1),
 				Description = faker.Lorem.Sentence(5),
-				CatgeoryId = 4,
+				CategoryId = 4,
 				CreatedDate = DateTime.Now,
 				IsDeleted = false,
 			};
